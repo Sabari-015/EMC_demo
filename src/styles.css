@@ -209,10 +209,10 @@ main { width: min(960px, 100% - 40px); margin: 0 auto; padding-bottom: 60px; }
 .card p { margin: 0; color: var(--muted); font-size: 0.88rem; }
 
 /* ---------- FAQ ---------- */
-details { border-top: 1px solid var(--line); padding: 14px 2px; }
-details:first-of-type { border-top: 0; }
-summary { cursor: pointer; font-weight: 600; }
-details p { color: var(--muted); font-size: 0.9rem; margin: 10px 0 0; }
+.faq__item { border-top: 1px solid var(--line); padding: 14px 2px; }
+.faq__item:first-of-type { border-top: 0; }
+.faq__q { background: none; border: 0; padding: 0; font: inherit; color: inherit; cursor: pointer; font-weight: 600; text-align: left; }
+.faq__a { color: var(--muted); font-size: 0.9rem; margin: 10px 0 0; }
 code { background: var(--surface-2); border: 1px solid var(--line); border-radius: 5px; padding: 1px 6px; font-size: 0.85em; }
 
 .footer { border-top: 1px solid var(--line); padding: 26px; text-align: center; color: var(--muted); font-size: 0.85rem; }
